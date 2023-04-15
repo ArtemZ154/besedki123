@@ -1,0 +1,386 @@
+@media screen and (max-width: 435px) {
+    html,
+    body {
+        margin: 0;
+        overflow-x: hidden;
+        background-color: #E3D9CA;
+    }
+    .main-display {
+        width: 100vw;
+        height: 100vh;
+        z-index: 54564;
+        position: relative;
+        background-color: #E3D9CA;
+        .nav {
+            .navvvv {
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .nav-bar {
+                display: none;
+                flex-direction: column;
+                text-align: center;
+                .nav-cell {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    margin-top: 15px;
+                }
+            }
+        }
+        .second-main-display {
+            display: flex;
+            flex-direction: column;
+            .up-display {
+                display: flex;
+                flex-direction: row;
+                margin-top: -6vh;
+                .meta-info {
+                    display: flex;
+                    margin: auto 0;
+                    height: 15vh;
+                    width: 30vw;
+                    margin-left: 5vw;
+                    border-left: 3px solid #000000;
+                    justify-content: center;
+                    .meta {
+                        margin-left: 3vw;
+                        .dsfd {
+                            img {
+                                margin: 0;
+                            }
+                            h5 {
+                                margin: 0;
+                                font-style: normal;
+                                font-weight: 800;
+                                font-size: 16px;
+                                line-height: 20px;
+                                text-align: left;
+                                letter-spacing: 0.03em;
+                                color: #000000;
+                            }
+                            h6 {
+                                margin: 0;
+                                padding-right: 15px;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 9px;
+                                line-height: 11px;
+                                letter-spacing: 0.03em;
+                                color: #000000;
+                            }
+                            .arrow {
+                                margin-top: 5vh;
+                            }
+                        }
+                    }
+                }
+                .all-slider {
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    align-items: end;
+                    margin-right: -35vw;
+                    margin-top: 7vh;
+                }
+            }
+            .bottom-main-display {
+                width: 100vw;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                top: 81vh;
+                .logo {
+                    width: 95%;
+                    padding-left: 13px;
+                    .social-network {
+                        img {
+                            width: 25px;
+                        }
+                    }
+                }
+                .mouse-icon {
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 30px;
+                    img {
+                        width: 30px;
+                        content: url('/static/svg/free-icon-swipe-481916\ 1.png');
+                    }
+                }
+            }
+        }
+    }
+    .second-display {
+        background-color: #385339;
+        background-image: repeating-linear-gradient(90deg, #E3D9CA, #E3D9CA 1px, transparent 2px, transparent 16.6vw);
+        .nav {
+            display: flex;
+            flex-direction: column;
+            .navvvv {
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .nav-logo {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #FFFFFF;
+                }
+                .categories {
+                    p {
+                        color: white;
+                        margin-left: -10px;
+                    }
+                }
+            }
+        }
+        nav {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            z-index: 1;
+            /* значение z-index должно быть больше, чем у всех элементов, которые могут перекрыть навигационное меню */
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+        }
+        nav.open {
+            display: flex;
+        }
+        .navvvv {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .categories {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            img {
+                margin-left: 10px;
+            }
+        }
+        .categories:hover img {
+            transform: rotate(180deg);
+        }
+        .img-categories {
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            transition: transform 0.2s ease-in-out;
+        }
+        nav {
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+        }
+        nav.open {
+            display: flex;
+        }
+        .product-cell {
+            img {
+                width: 45px;
+                height: 45px;
+            }
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 25px;
+            }
+            display: flex;
+            margin-bottom: 15px;
+            margin-top: 5px;
+            margin-left: 20px;
+            color: #000000;
+        }
+        .nav {
+            position: relative;
+        }
+        nav {
+            width: (60vw);
+            background-color: #E3D9CA;
+            border-radius: 16px 2px 15px 15px;
+            position: absolute;
+            top: calc(100% + -15px);
+            right: 0;
+            z-index: 1;
+            a {
+                img {
+                    margin-top: 5px;
+                    margin-right: 20px;
+                }
+            }
+            a:nth-child(6) {
+                margin-top: 4px;
+                margin-bottom: 7px;
+                p {
+                    margin-top: -2px;
+                }
+                img {
+                    margin-top: 3px;
+                }
+            }
+        }
+        .all-rows {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+                grid-template-areas: "photo1 photo3" "photo2 photo3" "photo6 photo4" "photo6 photo5" "photo7 photo9" "photo8 photo9";
+                .photo {
+                    width: 40vw;
+                    height: 40vw;
+                    background-size: cover;
+                    border-radius: 10px;
+                }
+                .photo1 {
+                    grid-area: photo1;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/1.jpg');
+                    grid-column: 1;
+                    margin: auto 0;
+                    margin-left: 15px;
+                    grid-row: 1;
+                }
+                .photo2 {
+                    grid-area: photo2;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/2.jpg');
+                    grid-column: 1;
+                    margin: auto 0;
+                    margin-left: 15px;
+                    grid-row: 2;
+                }
+                .photo3 {
+                    width: 60vw;
+                    height: 60vw;
+                    grid-area: photo3;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/3.jpg');
+                    margin: auto 0;
+                    grid-column: 2;
+                    grid-row: 1 / span 2;
+                }
+                .photo4 {
+                    grid-area: photo4;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/4.jpg');
+                    margin: auto 0;
+                    grid-column: 2;
+                    grid-row: 3;
+                    margin-left: 15px;
+                }
+                .photo5 {
+                    grid-area: photo5;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/5.jpg');
+                    margin: auto 0;
+                    grid-column: 2;
+                    grid-row: 4;
+                    margin-left: 15px;
+                }
+                .photo6 {
+                    width: 60vw;
+                    height: 60vw;
+                    grid-area: photo6;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/6.jpg');
+                    grid-column: 1;
+                    grid-row: 3 / span 2;
+                    margin: auto 0;
+                    margin-left: -40px;
+                }
+                .photo7 {
+                    grid-area: photo7;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/7.jpg');
+                    margin: auto 0;
+                    margin-left: 15px;
+                    grid-column: 1;
+                    grid-row: 5;
+                }
+                .photo8 {
+                    grid-area: photo8;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/10.jpg');
+                    margin: auto 0;
+                    margin-left: 15px;
+                    grid-column: 1;
+                    margin-bottom: 40px;
+                    grid-row: 6;
+                }
+                .photo9 {
+                    width: 60vw;
+                    height: 60vw;
+                    grid-area: photo9;
+                    background-image: url('/static/bes_and_kom_house/bes_in_modern_style/9.jpg');
+                    margin: auto 0;
+                    grid-column: 2;
+                    grid-row: 5 span 2;
+                }
+                .first-photo {}
+            }
+            marquee {
+                margin-bottom: 10px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 34px;
+                color: #E3D9CA;
+            }
+        }
+        .third-slider {
+            background-color: #E3D9CA;
+            background-image: repeating-linear-gradient(90deg, #385339, #385339 1px, transparent 2px, transparent 16.6vw);
+            marquee {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 34px;
+                color: #385339;
+                margin-top: 10px;
+            }
+            .slider-conteiner {
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                .slider {
+                    position: relative;
+                    width: 70vw;
+                    overflow: hidden;
+                    opacity: 1;
+                    border-radius: 25px;
+                    margin: 0 auto;
+                }
+                .slider img {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 1;
+                    object-fit: cover;
+                }
+                #prev-btn,
+                #next-btn {
+                    display: flex;
+                    background: transparent;
+                    border: none;
+                    font-size: 20px;
+                    color: black;
+                    cursor: pointer;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 7vw;
+                }
+                #prev-btn {
+                    left: 20px;
+                }
+                #next-btn {
+                    right: 20px;
+                }
+            }
+        }
+    }
+}

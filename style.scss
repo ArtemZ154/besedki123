@@ -1,0 +1,520 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('/static/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url('/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-800";
+    src: url('/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Ubuntu-700";
+    src: url("/static/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-500";
+    src: url("/static/Ubuntu-Medium.ttf");
+}
+
+@media screen and (min-width: 719px) {
+    html {
+        background-color: #385339;
+    }
+    body {
+        margin: 0px;
+        overflow-x: hidden;
+        min-width: 1200px;
+    }
+    .main-display {
+        font-family: 'Montserrat';
+        z-index: 5004754;
+        position: relative;
+        display: block;
+        height: 100vh;
+        background: url(/static/1581104161_29-p-sovremennii-dizain-chastnikh-domov-50\ 1.png) no-repeat;
+        background-position: top;
+        background-size: cover;
+        .nav {
+            display: flex;
+            padding-top: 15px;
+            margin: 0 auto;
+            flex-direction: row;
+            width: 80%;
+            font-family: 'Montserrat';
+            .navvvv {
+                .mon {
+                    display: none;
+                }
+            }
+            .nav-bar {
+                display: flex;
+                flex-grow: 8;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+                .nav-cell {
+                    padding-right: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    color: #000000;
+                }
+                .nav-cell:nth-last-child(1) {
+                    padding-right: 0;
+                }
+            }
+            .nav-logo {
+                flex-grow: 1;
+            }
+        }
+        .shadow-main-display {
+            height: 91vh;
+            width: 100vw;
+            box-shadow: 0px -5px 5px 12px rgba(0, 0, 0, 0.5);
+            background: rgba(20, 12, 4, 0.5);
+            position: absolute;
+            top: 70px;
+            .heading-button {
+                display: flex;
+                flex-direction: column;
+                padding: 200px;
+                .main-heading {
+                    margin: 0 auto;
+                    width: 900px;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 40px;
+                    line-height: 49px;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+                }
+                .main-subheading {
+                    margin: 0 auto;
+                    width: 720px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+                    padding-bottom: 50px;
+                }
+                .call-button {
+                    margin: 0 auto;
+                    width: 260px;
+                    height: 60px;
+                    background: none;
+                    color: inherit;
+                    border: none;
+                    padding: 0;
+                    font: inherit;
+                    cursor: pointer;
+                    outline: inherit;
+                    color: #FFFFFF;
+                    background-color: #FF2727;
+                    border-radius: 15px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                }
+            }
+            .bottom-main-display {
+                margin-top: -7vh;
+                .logo {
+                    width: 95%;
+                    padding-left: 130px;
+                    .social-network:nth-child(1) {
+                        img {
+                            width: 26px;
+                        }
+                    }
+                    img {
+                        width: 20px;
+                        padding-right: 7px;
+                    }
+                }
+                .mouse-icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 38px;
+                        margin: 0 auto;
+                    }
+                }
+                .mouse-icon,
+                .logo {
+                    position: absolute;
+                    top: 90%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+    .second-display {
+        position: relative;
+        z-index: -88;
+        background-color: #E3D9CA;
+        height: 170vh;
+        .all-second-display {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            .info-second-display {
+                display: flex;
+                flex-direction: column;
+                .about-heading {
+                    font-family: "Montserrat-bold";
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .line-font {
+                        font-family: "Montserrat-800";
+                        white-space: nowrap;
+                        color: #E3D9CA;
+                        -webkit-text-stroke: 1px rgba(0, 0, 0, 0.404);
+                        font-size: 150px;
+                        line-height: 171px;
+                        letter-spacing: 0.03em;
+                        margin: 0;
+                    }
+                    .main-font-heading {
+                        white-space: nowrap;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 50px;
+                        line-height: 61px;
+                        letter-spacing: 0.03em;
+                        color: #000000;
+                        margin: 0;
+                        margin-top: -11vh;
+                    }
+                }
+                .h6-heading {
+                    font-family: "Ubuntu-700";
+                    margin: 0;
+                    margin-top: 5vh;
+                    margin-left: 2.6vw;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 37px;
+                    line-height: 48px;
+                    color: #000000;
+                }
+                .about-company {
+                    margin-left: 5vw;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 30px;
+                    letter-spacing: 0.03em;
+                    color: #3E3E3E;
+                }
+            }
+            .img-second-display {
+                position: relative;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 25%;
+                .row {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 15px;
+                    img {
+                        width: (100vh * 0.4);
+                        margin-bottom: 60px;
+                        transform: matrix(0.97, 0.24, 0, 1.15, 0, 0);
+                        border-radius: 15px;
+                        box-shadow: 10px -20px 30px rgba(0, 0, 0, 0.616);
+                    }
+                }
+                .first-row-img {
+                    position: relative;
+                    z-index: 0;
+                    margin-left: 20%;
+                    margin-top: -1%;
+                    img {
+                        display: block;
+                        z-index: -100;
+                        width: (100vh * 0.6);
+                        box-shadow: 10px -20px 30px rgba(0, 0, 0, 0.781);
+                        margin-top: 5%;
+                    }
+                }
+                .second-row-img {
+                    margin-top: -35vh;
+                    img {
+                        width: (100vh * 0.45);
+                    }
+                    .second {
+                        margin-top: 18%;
+                    }
+                    .third {
+                        margin-top: 34%;
+                    }
+                }
+                .third-row-img {
+                    margin-top: -34vh;
+                    margin-left: 20%;
+                    img {
+                        width: (100vh * 0.5);
+                    }
+                    .first {
+                        margin-top: 8%;
+                    }
+                    .second {
+                        margin-top: 33%;
+                    }
+                }
+                .fourth-row-img {
+                    margin-top: -15px;
+                    margin-left: 40%;
+                    img {
+                        width: (100vh * 0.4);
+                    }
+                    .fisrt {
+                        margin-top: -20%;
+                    }
+                    .second {
+                        margin-top: 5%;
+                    }
+                }
+                .fifth-row-img {
+                    margin-top: 15px;
+                    img {
+                        width: (100vh * 0.34);
+                        margin-top: -17%;
+                        margin-left: 160%;
+                    }
+                }
+            }
+        }
+    }
+    .third-display {
+        background-color: #385339;
+        .advantages-heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .line-font {
+                white-space: nowrap;
+                color: #385339;
+                -webkit-text-stroke: 1px rgba(255, 255, 255, 0.65);
+                font-style: normal;
+                font-weight: 800;
+                font-size: 140px;
+                line-height: 171px;
+                letter-spacing: 0.03em;
+                margin: 0;
+            }
+            .main-font-heading {
+                white-space: nowrap;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 61px;
+                letter-spacing: 0.03em;
+                color: whitesmoke;
+                margin: 0;
+                margin-top: -11vh;
+            }
+        }
+        .why-working {
+            display: flex;
+            flex-direction: column;
+            .mini-heading {
+                width: 100%;
+                height: 10vw;
+                border-left: 7px solid white;
+                margin: 7%;
+                justify-content: center;
+                .fdsf {
+                    display: flex;
+                    height: 100%;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 8%;
+                    .why-working-with-me {
+                        margin: 0;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 55px;
+                        line-height: 63px;
+                        color: #FFFFFF;
+                    }
+                    .br {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 49px;
+                        letter-spacing: 0.12em;
+                        color: #FFFFFF;
+                        margin: 0;
+                        margin-left: 5%;
+                    }
+                }
+            }
+            .arrow {
+                img {
+                    width: 80vw;
+                    margin-top: -65vh;
+                    margin-left: 16vw;
+                    justify-content: center;
+                }
+            }
+        }
+        .call-request {
+            display: flex;
+            flex-direction: row;
+            height: 65vh;
+            width: 100vw;
+            background-color: #E3D9CA;
+            .img-callback-request {
+                display: flex;
+                flex-grow: 1.6;
+                justify-content: center;
+                align-items: center;
+                img {
+                    height: 90vh;
+                    margin: 0 auto;
+                }
+            }
+            .callback-request {
+                display: flex;
+                flex-grow: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin-right: 10vw;
+                h2 {
+                    font-style: normal;
+                    font-family: "Ubuntu-700";
+                    font-weight: 700;
+                    font-size: 35px;
+                    line-height: 40px;
+                    text-align: center;
+                    margin: 0;
+                }
+                h6 {
+                    font-style: normal;
+                    font-family: "Ubuntu-500";
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 23px;
+                    text-align: center;
+                    color: #7E7E7E;
+                    margin: 0;
+                }
+                input.input-name,
+                input.input-phone {
+                    display: flex;
+                    all: unset;
+                    background-color: #000000;
+                    height: 13%;
+                    width: 50%;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+                input::placeholder {
+                    font-family: "Ubuntu-700";
+                    color: #c9c9c9;
+                    margin-right: 100px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 17px;
+                    text-align: left;
+                    padding-left: 20px;
+                }
+                input:enabled {
+                    color: #FF2727;
+                }
+                button {
+                    margin: 0 auto;
+                    width: 260px;
+                    height: 60px;
+                    background: none;
+                    color: inherit;
+                    border: none;
+                    padding: 0;
+                    font: inherit;
+                    cursor: pointer;
+                    outline: inherit;
+                    color: #FFFFFF;
+                    background-color: #FF2727;
+                    border-radius: 35px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    font-family: "Montserrat";
+                }
+            }
+        }
+    }
+    .footer {
+        padding-top: 20vh;
+        .nav {
+            background-color: #E3D9CA;
+            width: 100vw;
+            height: 10vh;
+            margin: 0;
+            display: flex;
+            padding-top: 15px;
+            flex-direction: row;
+            font-family: 'Montserrat';
+            .nav-bar {
+                display: flex;
+                flex-grow: 8;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+                margin-right: 8vw;
+                .nav-cell {
+                    padding-right: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    color: #000000;
+                }
+                .nav-cell:nth-last-child(1) {
+                    padding-right: 0;
+                }
+            }
+            .nav-logo {
+                flex-grow: 1;
+                margin-left: 10vw;
+                margin-top: 2vh;
+                .line34 {
+                    height: 4px;
+                    width: 150px;
+                    background-color: #000000;
+                }
+            }
+        }
+    }
+}

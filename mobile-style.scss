@@ -1,0 +1,447 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('/static/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url('/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-800";
+    src: url('/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Ubuntu-700";
+    src: url("/static/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-500";
+    src: url("/static/Ubuntu-Medium.ttf");
+}
+
+@media screen and (max-width: 435px) {
+    html,
+    body {
+        margin: 0;
+        overflow-x: hidden;
+        background-color: #E3D9CA;
+    }
+    .main-display {
+        width: 100vw;
+        height: 100vh;
+        z-index: 54564;
+        position: relative;
+        background-image: url("/static/9be9c976148269870cf6380ec4fx--dacha-i-sad-pergola-3h3m-s-kryshej-iz-polikarbonata-hit-sezon\ 1.svg");
+        .nav {
+            .navvvv {
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .nav-bar {
+                display: none;
+                flex-direction: column;
+                text-align: center;
+                .nav-cell {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    margin-top: 15px;
+                }
+            }
+        }
+        .shadow-main-display {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            width: 100vw;
+            box-shadow: 0px -5px 5px 12px rgba(0, 0, 0, 0.5);
+            background: rgba(20, 12, 4, 0.5);
+            position: absolute;
+            top: 70px;
+            .heading-button {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20vh;
+                .main-heading {
+                    display: flex;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    width: 85vw;
+                    margin: 0 auto;
+                    margin-bottom: 1vh;
+                    font-weight: 800;
+                    font-size: 16px;
+                    line-height: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+                }
+                .main-subheading {
+                    font-family: 'Montserrat';
+                    width: 70vw;
+                    margin: 0 auto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 12px;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    margin-bottom: 3vh;
+                    color: #D7D7D7;
+                }
+                .call-button {
+                    margin: 0 auto;
+                    outline: inherit;
+                    border: none;
+                    color: white;
+                    width: 50vw;
+                    height: 5vh;
+                    background: #FF2727;
+                    border-radius: 10px;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.03em;
+                }
+            }
+            .bottom-main-display {
+                width: 100vw;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                top: 70vh;
+                .logo {
+                    width: 95%;
+                    padding-left: 13px;
+                    .social-network {
+                        img {
+                            width: 25px;
+                        }
+                    }
+                }
+                .mouse-icon {
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 30px;
+                    img {
+                        width: 30px;
+                        content: url('/static/free-icon-swipe-481916\ 1.svg');
+                    }
+                }
+            }
+        }
+    }
+    .second-display {
+        height: 65vh;
+        margin: 0;
+        background-color: #E3D9CA;
+        z-index: -100;
+        .info-second-display {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30vh;
+            margin-bottom: 5vh;
+            .about-heading {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: -6vh;
+                .line-font {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 42px;
+                    line-height: 51px;
+                    letter-spacing: 0.03em;
+                    white-space: nowrap;
+                    color: #E3D9CA;
+                    margin: 0;
+                    margin-bottom: -9%;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.13);
+                }
+                .main-font-heading {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 21px;
+                    line-height: 26px;
+                    margin: 0;
+                    letter-spacing: 0.03em;
+                    margin-left: 12vw;
+                }
+            }
+            .h6-heading {
+                position: relative;
+                top: -6vh;
+                font-family: 'Ubuntu';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                text-align: center;
+                line-height: 23px;
+                margin: 0;
+                margin-top: 3vh;
+            }
+            .about-company {
+                position: relative;
+                top: -6vh;
+                width: 95vw;
+                margin: 0 auto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.03em;
+            }
+        }
+        .img-second-display {
+            position: relative;
+            top: -6vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 25%;
+            .row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 15px;
+                img {
+                    margin-bottom: 60px;
+                    transform: matrix(0.97, 0.24, 0, 1.15, 0, 0);
+                    border-radius: 5px;
+                    box-shadow: 10px -20px 30px rgba(0, 0, 0, 0.616);
+                }
+            }
+            .first-row-img {
+                position: relative;
+                top: 4vh;
+                z-index: 0;
+                margin-left: 20%;
+                margin-top: -65vh;
+                img {
+                    display: block;
+                    z-index: -100;
+                    width: 50vw;
+                    box-shadow: 10px -20px 30px rgba(0, 0, 0, 0.781);
+                    margin-top: 5%;
+                }
+            }
+            .second-row-img {
+                position: relative;
+                margin-top: -22.5vh;
+                top: 4vh;
+                img {
+                    width: 42vw;
+                }
+                .second {
+                    margin-top: 18%;
+                }
+                .third {
+                    margin-top: 34%;
+                }
+            }
+            .third-row-img {
+                display: none;
+                margin-top: 0vh;
+                margin-left: 20%;
+                img {
+                    width: 30vw;
+                }
+                .first {
+                    margin-top: 8%;
+                }
+                .second {
+                    margin-top: 33%;
+                }
+            }
+            .fourth-row-img {
+                margin-top: 28vh;
+                margin-left: -20%;
+                img {
+                    width: 50vw;
+                }
+                .fisrt {
+                    margin-top: -20%;
+                }
+                .second {
+                    margin-top: 5%;
+                }
+            }
+            .fifth-row-img {
+                margin-top: -3vh;
+                img {
+                    width: 50vw;
+                    margin-top: -17%;
+                }
+            }
+        }
+    }
+    .third-display {
+        height: 220vh;
+        background-color: #385339;
+        z-index: 1000;
+        position: relative;
+        .advantages-heading {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4vh;
+            .line-font {
+                text-align: center;
+                font-weight: 800;
+                font-size: 35px;
+                margin: 0;
+                margin: 0 auto;
+                line-height: 49px;
+                letter-spacing: 0.03em;
+                color: #385339;
+                -webkit-text-stroke: 1px rgba(255, 255, 255, 0.137);
+            }
+            .main-font-heading {
+                margin: 0;
+                font-style: normal;
+                margin: 0 auto;
+                margin-top: -5.5vh;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 32px;
+                letter-spacing: 0.03em;
+                color: #FFFFFF;
+            }
+        }
+        .why-working {
+            .mini-heading {
+                border-left: 2px solid #FFFFFF;
+                margin-left: 3vw;
+                .fdsf {
+                    margin-left: 5vw;
+                    .why-working-with-me {
+                        margin: 0;
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                    }
+                    .br {
+                        margin: 0;
+                        margin-left: 6vw;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        letter-spacing: 0.12em;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .arrow {
+                img {
+                    width: 105vw;
+                    content: url('/static/svg/Group\ 19\ \(2\).png');
+                }
+            }
+        }
+        .call-request {
+            height: 67vh;
+            margin-top: 35vh;
+            background-color: #E3D9CA;
+            display: flex;
+            flex-direction: column;
+            .img-callback-request {
+                margin: 0 auto;
+                margin-top: -50%;
+                img {
+                    width: 80vw;
+                    display: flex;
+                }
+            }
+            .callback-request {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h2 {
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #000000;
+                }
+                h6 {
+                    margin: 0;
+                    margin-top: -2vh;
+                    margin-bottom: 5vh;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 13px;
+                    text-align: center;
+                    color: #7E7E7E;
+                }
+                input {
+                    margin-bottom: 1vh;
+                    height: 5vh;
+                    width: 35vh;
+                }
+                button {
+                    margin: 0 auto;
+                    width: 140px;
+                    height: 35px;
+                    background: none;
+                    color: inherit;
+                    border: none;
+                    padding: 0;
+                    font: inherit;
+                    cursor: pointer;
+                    outline: inherit;
+                    color: #FFFFFF;
+                    background-color: #FF2727;
+                    border-radius: 35px;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 14px;
+                    letter-spacing: 0.03em;
+                    font-family: "Montserrat";
+                }
+                .conf {
+                    display: flex;
+                    flex-direction: row;
+                    input {
+                        width: 10px;
+                        margin-top: -12px
+                    }
+                    label {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 8px;
+                        line-height: 131.29%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        margin-top: 7vh;
+        .nav {}
+    }
+}
